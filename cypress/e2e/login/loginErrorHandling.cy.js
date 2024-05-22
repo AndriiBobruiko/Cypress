@@ -1,6 +1,6 @@
 describe('Error Handling of Login Fields', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('/sign-in'); // Update with the actual login URL
   });
 
   it('Should display error for invalid email format', () => {

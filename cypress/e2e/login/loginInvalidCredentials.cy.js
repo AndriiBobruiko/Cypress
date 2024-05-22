@@ -1,6 +1,6 @@
 describe('Login with Invalid Credentials and Assert Snackbar Error', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('/sign-in'); // Update with the actual login URL
   });
 
   it('Should display snackbar error for invalid credentials', () => {

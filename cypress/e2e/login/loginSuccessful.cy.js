@@ -1,6 +1,6 @@
 describe('Login Successfully via the UI', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('/sign-in'); // Update with the actual login URL
   });
 
   it('Should login successfully and redirect to the dashboard', () => {
