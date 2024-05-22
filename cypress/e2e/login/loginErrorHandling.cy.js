@@ -1,6 +1,6 @@
 describe('Error Handling of Login Fields', () => {
   beforeEach(() => {
-    cy.visit('/sign-in'); // Update with the actual login URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-in'); // Update with the actual login URL
   });
 
   it('Should display error for invalid email format', () => {

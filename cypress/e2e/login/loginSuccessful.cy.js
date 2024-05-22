@@ -1,6 +1,6 @@
 describe('Login Successfully via the UI', () => {
   beforeEach(() => {
-    cy.visit('/sign-in'); // Update with the actual login URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-in'); // Update with the actual login URL
   });
 
   it('Should login successfully and redirect to the dashboard', () => {

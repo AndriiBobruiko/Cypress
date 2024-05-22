@@ -1,6 +1,6 @@
 describe('Signup with an Already Existing Account', () => {
   beforeEach(() => {
-    cy.visit('/sign-up'); // Update with the actual signup URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-up'); // Update with the actual signup URL
   });
 
   it('Should display error for existing account', () => {

@@ -20,7 +20,7 @@ const filesStructure = [
 const testContents = {
   'signupErrorHandling.cy.js': `describe('Error Handling of Signup Fields', () => {
   beforeEach(() => {
-    cy.visit('/signup'); // Update with the actual signup URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-up'); // Update with the actual signup URL
   });
 
   it('Should display error for invalid email format', () => {
@@ -49,7 +49,7 @@ const testContents = {
 });`,
   'signupExistingAccount.cy.js': `describe('Signup with an Already Existing Account', () => {
   beforeEach(() => {
-    cy.visit('/signup'); // Update with the actual signup URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-up'); // Update with the actual signup URL
   });
 
   it('Should display error for existing account', () => {
@@ -62,7 +62,7 @@ const testContents = {
 });`,
   'loginErrorHandling.cy.js': `describe('Error Handling of Login Fields', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-in'); // Update with the actual login URL
   });
 
   it('Should display error for invalid email format', () => {
@@ -81,7 +81,7 @@ const testContents = {
 });`,
   'loginInvalidCredentials.cy.js': `describe('Login with Invalid Credentials and Assert Snackbar Error', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-in'); // Update with the actual login URL
   });
 
   it('Should display snackbar error for invalid credentials', () => {
@@ -93,7 +93,7 @@ const testContents = {
 });`,
   'loginSuccessful.cy.js': `describe('Login Successfully via the UI', () => {
   beforeEach(() => {
-    cy.visit('/login'); // Update with the actual login URL
+    cy.visit('http://internaltrainings-vm.ipa.dataart.net/sign-in'); // Update with the actual login URL
   });
 
   it('Should login successfully and redirect to the dashboard', () => {
